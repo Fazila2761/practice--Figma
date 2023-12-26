@@ -1,0 +1,259 @@
+*{
+    margin: 0%;
+    padding:0%;
+}
+
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+/* header css start */
+.menu-header{
+    
+    background-color: white;
+    width:1650px;
+    margin-left: 7%;
+
+}
+.logo{
+    width:200px;
+    height:100px;
+    margin-left:4%;
+}
+
+.header-area{
+    display: flex;
+    justify-content: space-between;
+    width:1600px;
+    height:150px;
+    align-items: center;
+    
+}
+.header-area ul li{
+    display: inline-block;
+
+}
+.header-area ul li a{
+    text-decoration: none;
+    color:black;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+.button1{
+    box-shadow: 0 0 5px #91D497;
+    width:120px;
+    height:28px;
+    transition: 0.5s ease;
+    cursor: pointer;
+    border-radius: 4px;
+    border:none;
+    background-color: white;
+}
+.button1:hover{
+    box-shadow: 0 0 5px #91D497;
+    transform:scale(1.2);
+ 
+    
+}
+.header-area ul li a:hover{
+    background:#91D497;
+    border-radius: 3px; 
+}
+/* header css end/ */
+.scanary{
+    background-image: url(images/image.png);
+    width: 1650px;
+    height: 616px;
+    margin-left: 7%;
+    background-size: cover;
+    
+}
+.empower{
+    text-align: center;
+    padding-top: 15%;
+    color: white;
+    letter-spacing: 3px;
+    
+}
+.button2{
+    margin-left: 40%;
+    margin-top: 5%;
+    width:315px;
+    height:58px;
+    border-radius: 7px;
+    letter-spacing: 1px;
+    transition: 0.5s ease;
+    cursor: pointer;
+    
+ 
+}
+.button2:hover{
+    transform:scale(1.2);
+}
+ .girl-area-1{
+    margin-top: 5%;
+    margin-left: 20%;
+   display: flex;
+
+    
+
+ }
+ .girl1{
+    width: 534px;
+    height: 662px;
+    
+    
+ }
+
+.girl-text-1{
+margin-left:2%
+   
+}
+.girl-text-1 h2{
+    margin-top: 4%;
+}
+.girl-text-1  p{
+    margin-top: 4%;
+    margin-right: 40%;
+}
+.girl-text-1 ul li{
+    list-style:none;
+    margin-top: 4%;
+
+}
+.button3{
+    width:419px;
+    height:86px;
+    background-color:#91D497;
+    color:white;
+    margin-top:4%;
+    letter-spacing: 1px;
+    font-size: large;
+    gap:10px;
+    border-radius: 10px;
+    border:none;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+ .button3:hover{
+    transform: scale(1.2);
+ }
+ /* girl area-1 end/ */
+ .input-div{
+    width: 1650px;
+    height: 900px;
+    margin-top: 4%;
+
+    background: #DFE8E6;
+    margin-left:7%;
+
+
+}
+.want{
+    letter-spacing: 0.055em;
+    padding-top: 6%;
+    padding-left: 10%;
+
+}
+.schedule{
+   
+    padding-top: 2%;
+    padding-left: 10%;
+
+
+}
+.input-text{
+    padding-left:10%;
+    padding-top:2%;
+    
+    
+}
+.name{
+    width: 550px;
+    height: 60px;
+    border-radius: 9px;
+    background-color:#a2d1c7;
+    padding-left:10px;
+    border:none;
+    font-size: large;
+    letter-spacing: 1px;
+   
+
+}
+.email{
+    width: 550px;
+    height: 60px;
+    margin-top: 8px;
+    border-radius: 9px;
+    background-color:#a2d1c7;
+    padding-left:10px;
+    border:none;
+    font-size: large;
+    letter-spacing: 1px;
+
+}
+.phone{
+    width: 550px;
+    height: 60px;
+    margin-top: 8px;
+    border-radius: 9px;
+    background-color:#a2d1c7;
+    padding-left:10px;
+    border:none;
+    font-size: large;
+    letter-spacing: 1px;
+
+
+}
+.facebook{
+    width: 550px;
+    height: 60px;
+    margin-top: 8px;
+    border-radius: 9px;
+    background-color:#a2d1c7;
+    padding-left:10px;
+    border:none;
+    font-size: large;
+    letter-spacing: 1px;
+
+
+}
+.date{
+    width: 550px;
+    height: 60px;
+    margin-top: 8px;
+    border-radius: 9px;
+    background-color:#a2d1c7;
+    padding-left:10px;
+    border:none;
+    font-size: large;
+    letter-spacing: 1px;
+    
+}
+.photo{
+    width: 550px;
+    height: 650px;
+    margin-top:-25%;
+    margin-left:55%;
+
+}
+.choose{
+    margin-top: -8%;
+    margin-left:16%;
+}
+
+.choose-text{
+    text-align: center;
+    width: 342px;
+    height: 73px;
+    font-size: large;
+    transition: 0.5s ease;
+    cursor: pointer;
+    border-radius: 9px;
+    background-color: #68BCA7;
+    border:none;
+    color:#FFFFFF;
+ 
+}
+.choose-text:hover{
+    transform: scale(1.2);
+}
